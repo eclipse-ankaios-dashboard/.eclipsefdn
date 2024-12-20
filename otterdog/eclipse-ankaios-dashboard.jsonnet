@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-ankaios-dashboard') {
+orgs.newOrg('automotive.ankaios.ankaios-dashboard', 'eclipse-ankaios-dashboard') {
   settings+: {
     description: "",
     name: "Eclipse Ankaios Dashboard",
